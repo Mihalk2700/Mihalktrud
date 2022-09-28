@@ -3,7 +3,7 @@ using namespace std;
 int main() {
 	int p,n;
 	setlocale(LC_ALL,"");
-	cout << "Ââåäèòå p (2<p<10)=";
+	cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ p (2<p<10)=";
 	cin >> p;
 	for (int x=1;x<p;x++){
 			for (int y=1;y<p;y++){
