@@ -1,15 +1,12 @@
-for i in range(7):
-    d=[]
-    d.append(i)
-    for k in range(7):
-        d.append(k)    
-        for a in range(7):
-            d.append(a)
-            for b in range(7):
-                d.append(b)
-                for c in range(7):
-                    d.append(c)
-                    if i=6 or k=6 or a=6 or b=6 or c=6:
-                        n=d.index(6)
-                        print(n)
-                        break
+x=0
+for i in range(1,8):    
+    for k in range(8):
+        for a in range(8):
+            for b in range(8):
+                for c in range(8):
+                    s=str(i)+str(k)+str(a)+str(b)+str(c)
+                    d=list(s)
+                    if d.count('6')==1:
+                        if int(d[d.index('6')-2])%2==0 and int(d[d.index('6')])%2==0:
+                            x+=1
+print(x)
