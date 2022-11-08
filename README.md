@@ -17,3 +17,5 @@
 7)Икселька с логикой
 
 8)Логика в питончике
+
+9) A\leftrightarrow B=(\overline{A}\vee B) \text{&} (\overline{B}\vee A)
