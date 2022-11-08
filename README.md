@@ -27,4 +27,5 @@ A\leftrightarrow B=(\overline{A}\vee B) \wedge_{}^{}(\overline{B}\vee A)
 ![image](https://user-images.githubusercontent.com/114387840/200457402-5fe8da3b-0d80-413c-a626-d8a1a4e55a69.png)
 
 A\to B=\overline{A}\vee_{}^{}B
+
 ![image](https://user-images.githubusercontent.com/114387840/200457658-222ddaff-81bf-4d2f-8353-456e039b3e30.png)
