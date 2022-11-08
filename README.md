@@ -56,3 +56,5 @@ A\to B=\overline{A}\vee_{}^{}B
     </mrow>
   </mstyle>
 </math>
+
+\displaystyle{\displaylines{A\to B=\overline{A}\vee_{}^{}B}}
