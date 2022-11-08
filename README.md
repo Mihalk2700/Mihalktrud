@@ -19,3 +19,5 @@
 8)Логика в питончике
 
 9) A\leftrightarrow B=(\overline{A}\vee B) \text{&} (\overline{B}\vee A)
+
+![image](https://user-images.githubusercontent.com/114387840/200456983-c4dbc06b-9ea9-4a3a-acaa-a63395c97d03.png)
