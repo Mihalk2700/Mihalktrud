@@ -30,7 +30,7 @@ A\to B=\overline{A}\vee_{}^{}B
 
 ![image](https://user-images.githubusercontent.com/114387840/200457658-222ddaff-81bf-4d2f-8353-456e039b3e30.png)
 
-$$A\to B=\overline{A}\vee_{}^{}B}$$
+$$A\to B=\overline{A}\vee_{}^{}B$$
 
 $$\phi(x)=\frac{1}{\sigma\sqrt{2\pi}}*{e}^{-\frac{(x-\mu)^{2}}{2{\sigma}^{2}}}$$
 
