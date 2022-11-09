@@ -65,4 +65,4 @@ $${(x+a)}^{n}=\sum^{\substack{n}}_{\substack{k=0}}(\frac{n}{k}){x}^{k}{a}^{n-k}$
 
 $${\overline E_{1}}^{2}=\sqrt{\frac{F{a}^{x-1}}{(x-1) \cdot x}}+{{\alpha_{1}}^{\frac{1}{3}}}+{{\beta_{1}}^{\frac{2}{3}}}\$$
 
-![image](https://user-images.githubusercontent.com/114387840/200720598-13acd698-eba4-4fcc-b0b0-141b260d46fa.png)
+![image](https://user-images.githubusercontent.com/114387840/200723441-8c13f075-9626-4d93-a903-37a97c50609e.png)
