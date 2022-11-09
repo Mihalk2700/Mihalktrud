@@ -30,34 +30,7 @@ A\to B=\overline{A}\vee_{}^{}B
 
 ![image](https://user-images.githubusercontent.com/114387840/200457658-222ddaff-81bf-4d2f-8353-456e039b3e30.png)
 
-<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
-  <mstyle displaystyle="true" scriptlevel="0">
-    <mrow data-mjx-texclass="ORD">
-      <mtable rowspacing=".5em" columnspacing="1em" displaystyle="true">
-        <mtr>
-          <mtd>
-            <mi>A</mi>
-            <mo accent="false" stretchy="false">&#x2192;</mo>
-            <mi>B</mi>
-            <mo>=</mo>
-            <mover>
-              <mi>A</mi>
-              <mo accent="true">&#x2015;</mo>
-            </mover>
-            <msubsup>
-              <mo>&#x2228;</mo>
-              <mrow data-mjx-texclass="ORD"></mrow>
-              <mrow data-mjx-texclass="ORD"></mrow>
-            </msubsup>
-            <mi>B</mi>
-          </mtd>
-        </mtr>
-      </mtable>
-    </mrow>
-  </mstyle>
-</math>
-
-\displaystyle{\displaylines{A\to B=\overline{A}\vee_{}^{}B}}
+$$A\to B=\overline{A}\vee_{}^{}B}$$
 
 $$\phi(x)=\frac{1}{\sigma\sqrt{2\pi}}*{e}^{-\frac{(x-\mu)^{2}}{2{\sigma}^{2}}}$$
 
