@@ -60,3 +60,5 @@ A\to B=\overline{A}\vee_{}^{}B
 \displaystyle{\displaylines{A\to B=\overline{A}\vee_{}^{}B}}
 
 $$\phi(x)=\frac{1}{\sigma\sqrt{2\pi}}*{e}^{-\frac{(x-\mu)^{2}}{2{\sigma}^{2}}}$$
+
+$${(x+a)}^{n}=\sum^{\substack{n}}_{\substack{k=0}}(\frac{n}{k}){x}^{k}{a}^{n-k}$$
