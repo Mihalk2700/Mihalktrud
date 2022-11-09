@@ -58,3 +58,5 @@ A\to B=\overline{A}\vee_{}^{}B
 </math>
 
 \displaystyle{\displaylines{A\to B=\overline{A}\vee_{}^{}B}}
+
+$$\phi(x)=\frac{1}{\sigma\sqrt{2\pi}}*{e}^{-\frac{(x-\mu)^{2}}{2{\sigma}^{2}}}$$
