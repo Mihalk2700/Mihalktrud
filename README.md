@@ -20,6 +20,8 @@
 
 9)A\leftrightarrow B=(\overline{A}\vee B) \text{&} (\overline{B}\vee A)
 
+10)Картинкодел
+
 ![image](https://user-images.githubusercontent.com/114387840/200456983-c4dbc06b-9ea9-4a3a-acaa-a63395c97d03.png)
 
 A\leftrightarrow B=(\overline{A}\vee B) \wedge_{}^{}(\overline{B}\vee A)
