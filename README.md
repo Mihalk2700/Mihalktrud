@@ -42,5 +42,5 @@ $${\overline E_{1}}^{2}=\sqrt{\frac{F{a}^{x-1}}{(x-1) \cdot x}}+{{\alpha_{1}}^{\
 
 ![image](https://user-images.githubusercontent.com/114387840/200723441-8c13f075-9626-4d93-a903-37a97c50609e.png)
 
-flowchart LR
+**flowchart LR
     id
