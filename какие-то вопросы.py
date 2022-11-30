@@ -22,4 +22,4 @@ def main():
 d=1
 while d==1:
     main()
-    d=input('Продолжим?')
+    d=int(input('Продолжим?'))
