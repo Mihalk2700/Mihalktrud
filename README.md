@@ -42,6 +42,10 @@ $${(x+a)}^{n}=\sum^{\substack{n}}_{\substack{k=0}}(\frac{n}{k}){x}^{k}{a}^{n-k}$
 
 $${\overline E_{1}}^{2}=\sqrt{\frac{F{a}^{x-1}}{(x-1) \cdot x}}+{{\alpha_{1}}^{\frac{1}{3}}}+{{\beta_{1}}^{\frac{2}{3}}}\$$
 
-[![](https://mermaid.ink/img/pako:eNp1TjsKwkAUvMrj1SliYbO1N7DdZsm-6EI2CXG3kBBQxE7wAnqHFBYhQb3C2xu5ATtxmhmYD9NiVmlCgbUhcMYVBHznHsKRR37xFC4zQ7jKEiIk8o2HcOaeB54kgoBFmv54E49_vXc48ZMf4RAXvqklJmipscro-KSdKxLdlixJFFFqypUvnERZdjGqvKvW-zJD4RpPCfpaK0crozaNsihyVeyo-wBd4V0i?type=png)](https://mermaid.live/edit#pako:eNp1TjsKwkAUvMrj1SliYbO1N7DdZsm-6EI2CXG3kBBQxE7wAnqHFBYhQb3C2xu5ATtxmhmYD9NiVmlCgbUhcMYVBHznHsKRR37xFC4zQ7jKEiIk8o2HcOaeB54kgoBFmv54E49_vXc48ZMf4RAXvqklJmipscro-KSdKxLdlixJFFFqypUvnERZdjGqvKvW-zJD4RpPCfpaK0crozaNsihyVeyo-wBd4V0i)
+***mermaid
+pie title На сколько я
+    "Михаил" : 100
+    "Михалк" : 100
+    "Михапундрик" : 50
 
 [![](https://mermaid.ink/img/pako:eNp1U8tO20AU_ZXRrIoUWGSZBRIiH1AFVtgsJrYJqMSJQrJAdqQQWnUBCPWxqpBatWyRzMNKCEn4hTt_xLkzExCG2pLHcx_nnnNGk8igFUayIhsd1d4Vm1U_FnjWPtBPyinTZ3qA75DmerDkUsvLqyn94pigR6TndMtFNNXf9CBVCf0uBvvvdE4NbO7WMU3Sejmhi2LUtdbL6FVlzxas6K9YjvRQn27bvCob7AvKGZ3uBF3RPT1gCxIlYaiMaAYZ6MKa6XOB3y92VFp7S1B_xviRJZbQ5WLzjhQmDCSAYyB0p42E_r4Oua6GQNu6R_8Mdzbp3vC5YUPuin5TJmgsaALqE6vgGuEhVohc6GbEqvfacrxOYdGmKqqd1jp3hp5VtmJEmKFjfV4S0IqhQJwJ-oHEjBMOI7TSTcGYcjaK-6b6mB70SRr4sa1b5zqYkBlSE-MSwx_Zg2VpC3UFsmY87-HK3NiTc5JlpyLwXg6Dq5590SeOYGAIfofz0AInDMn_8khrb93LHFINSB89-gMHRkbeKdsP82VJNqNOU-2FuDkJF_uyuxs1I19W8Buqzidf-nEfdarXbW0cxoGsdDu9qCR77VB1o-qewoVrysqO2j9AtK3irVZrse8_AaPM_bk?type=png)](https://mermaid.live/edit#pako:eNp1U8tO20AU_ZXRrIoUWGSZBRIiH1AFVtgsJrYJqMSJQrJAdqQQWnUBCPWxqpBatWyRzMNKCEn4hTt_xLkzExCG2pLHcx_nnnNGk8igFUayIhsd1d4Vm1U_FnjWPtBPyinTZ3qA75DmerDkUsvLqyn94pigR6TndMtFNNXf9CBVCf0uBvvvdE4NbO7WMU3Sejmhi2LUtdbL6FVlzxas6K9YjvRQn27bvCob7AvKGZ3uBF3RPT1gCxIlYaiMaAYZ6MKa6XOB3y92VFp7S1B_xviRJZbQ5WLzjhQmDCSAYyB0p42E_r4Oua6GQNu6R_8Mdzbp3vC5YUPuin5TJmgsaALqE6vgGuEhVohc6GbEqvfacrxOYdGmKqqd1jp3hp5VtmJEmKFjfV4S0IqhQJwJ-oHEjBMOI7TSTcGYcjaK-6b6mB70SRr4sa1b5zqYkBlSE-MSwx_Zg2VpC3UFsmY87-HK3NiTc5JlpyLwXg6Dq5590SeOYGAIfofz0AInDMn_8khrb93LHFINSB89-gMHRkbeKdsP82VJNqNOU-2FuDkJF_uyuxs1I19W8Buqzidf-nEfdarXbW0cxoGsdDu9qCR77VB1o-qewoVrysqO2j9AtK3irVZrse8_AaPM_bk)
