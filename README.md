@@ -44,8 +44,8 @@ $${\overline E_{1}}^{2}=\sqrt{\frac{F{a}^{x-1}}{(x-1) \cdot x}}+{{\alpha_{1}}^{\
 
 ``` mermaid
 pie title На сколько я
-    "Михаил" : 100
-    "Михалк" : 100
-    "Михапундрик" : 50
+    "Михаил":100
+    "Михалк":100
+    "Михапундрик":50
 
 [![](https://mermaid.ink/img/pako:eNp1U8tO20AU_ZXRrIoUWGSZBRIiH1AFVtgsJrYJqMSJQrJAdqQQWnUBCPWxqpBatWyRzMNKCEn4hTt_xLkzExCG2pLHcx_nnnNGk8igFUayIhsd1d4Vm1U_FnjWPtBPyinTZ3qA75DmerDkUsvLqyn94pigR6TndMtFNNXf9CBVCf0uBvvvdE4NbO7WMU3Sejmhi2LUtdbL6FVlzxas6K9YjvRQn27bvCob7AvKGZ3uBF3RPT1gCxIlYaiMaAYZ6MKa6XOB3y92VFp7S1B_xviRJZbQ5WLzjhQmDCSAYyB0p42E_r4Oua6GQNu6R_8Mdzbp3vC5YUPuin5TJmgsaALqE6vgGuEhVohc6GbEqvfacrxOYdGmKqqd1jp3hp5VtmJEmKFjfV4S0IqhQJwJ-oHEjBMOI7TSTcGYcjaK-6b6mB70SRr4sa1b5zqYkBlSE-MSwx_Zg2VpC3UFsmY87-HK3NiTc5JlpyLwXg6Dq5590SeOYGAIfofz0AInDMn_8khrb93LHFINSB89-gMHRkbeKdsP82VJNqNOU-2FuDkJF_uyuxs1I19W8Buqzidf-nEfdarXbW0cxoGsdDu9qCR77VB1o-qewoVrysqO2j9AtK3irVZrse8_AaPM_bk?type=png)](https://mermaid.live/edit#pako:eNp1U8tO20AU_ZXRrIoUWGSZBRIiH1AFVtgsJrYJqMSJQrJAdqQQWnUBCPWxqpBatWyRzMNKCEn4hTt_xLkzExCG2pLHcx_nnnNGk8igFUayIhsd1d4Vm1U_FnjWPtBPyinTZ3qA75DmerDkUsvLqyn94pigR6TndMtFNNXf9CBVCf0uBvvvdE4NbO7WMU3Sejmhi2LUtdbL6FVlzxas6K9YjvRQn27bvCob7AvKGZ3uBF3RPT1gCxIlYaiMaAYZ6MKa6XOB3y92VFp7S1B_xviRJZbQ5WLzjhQmDCSAYyB0p42E_r4Oua6GQNu6R_8Mdzbp3vC5YUPuin5TJmgsaALqE6vgGuEhVohc6GbEqvfacrxOYdGmKqqd1jp3hp5VtmJEmKFjfV4S0IqhQJwJ-oHEjBMOI7TSTcGYcjaK-6b6mB70SRr4sa1b5zqYkBlSE-MSwx_Zg2VpC3UFsmY87-HK3NiTc5JlpyLwXg6Dq5590SeOYGAIfofz0AInDMn_8khrb93LHFINSB89-gMHRkbeKdsP82VJNqNOU-2FuDkJF_uyuxs1I19W8Buqzidf-nEfdarXbW0cxoGsdDu9qCR77VB1o-qewoVrysqO2j9AtK3irVZrse8_AaPM_bk)
