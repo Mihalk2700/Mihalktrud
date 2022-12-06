@@ -42,7 +42,7 @@ $${(x+a)}^{n}=\sum^{\substack{n}}_{\substack{k=0}}(\frac{n}{k}){x}^{k}{a}^{n-k}$
 
 $${\overline E_{1}}^{2}=\sqrt{\frac{F{a}^{x-1}}{(x-1) \cdot x}}+{{\alpha_{1}}^{\frac{1}{3}}}+{{\beta_{1}}^{\frac{2}{3}}}\$$
 
-*** mermaid
+``` mermaid
 pie title На сколько я
     "Михаил" : 100
     "Михалк" : 100
