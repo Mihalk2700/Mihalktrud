@@ -196,11 +196,40 @@ def hem():
         print(f"код исправлен: символ {chisla_spicok[imin]}")
     else:
         print("код неверный")
+def tabl():
+    p=int(input("основание (2<p<10)"))
+    n=0
+    for x in range(1,p):
+        for y in range(1,p):
+            n=((x*y)//p)*10+x*y%p
+            print(n,end=" ")
+        print(" ")
+def ndc():
+    p=int(input("Число: "))
+    n=int(input("В какой системе: "))
+    k=1
+    d=0
+    while(n!=0):
+        d+=n%10*k
+        k=k*p
+        n=n/10
+    print(d)
+def cdn():
+    n = int(input("Какое число: "))
+    c=int(input("В какую систему:"))
+    b = ''
+    while n > 0:
+        b = str(n % c) + b
+        n = n // c
+    print(b)
 def men0():
     print(" ")
     print("1.Морза")
     print("2.Хемминг")
     print("3.Решатель")
+    print("4.Перевод из n-ой в 10-ую")
+    print("5.таблица умножения n-ой")
+    print("6.Из десятичной в n-ую")
     m=int(input("Зачем оно тебе надо (если выбрали не то введите 0):"))
     if(m==1):
         morza()
@@ -208,8 +237,13 @@ def men0():
         hem()
     elif(m==3):
         menu1()
+    elif(m==4):
+        ndc()
+    elif(m==5):
+        tabl()
+    elif(m==6):
+        cdn()
     else:
         print("Введи нормально!")
 while 1 >0:
     men0()
-
