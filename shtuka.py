@@ -35,8 +35,7 @@ def aboba():
             c=a/b
             print ("Байт в одном символе="+str(c) )
     else:
-        print("Введи нормально!")    
-    
+        print("Введи нормально!")       
 def amogus():
     print("1.Размер аудиофайла")
     print("2.Частота")
@@ -89,7 +88,6 @@ def amogus():
             print ("Разрядность регистра="+str(I))
     else:
         print("Введи нормально!")    
-
 def abobus():
     print("1.Размер изображения")
     print("2.Глубина цвета через размер")
@@ -147,7 +145,6 @@ def abobus():
             print ("Разрядность регистра="+str(V))
     else:
         print("Введи нормально!")    
-
 def menu1():
     print("1.Текстовые задачи")
     print("2.Звуковые задачи")
@@ -161,5 +158,58 @@ def menu1():
         abobus()
     else:
         print("Введи нормально!")
+def morza():
+    s=input("Введи слово разбитое на пробелы ЗАГЛАВНЫМИ латинскими буквами: ")
+    str_list=s.split(sep=' ')
+    d=dict(A='.-', B='-...',W='.--',G='--.',D='-..',E='',V='',Z='',I='',J='',K='',L='',M='',N='',O='---',P='.--.',R='.-.',S='...',T='',U='..--',F='..-.',H='....',C='-.-.',Q='---.-',X='-..-')
+    i=len(str_list)
+    for k in range(i):
+        print(d[str_list[k]], end=" ")
+        str_c=d[str_list[k]].split()
+def distance(x,y):
+    k=7
+    for i in range(0,7):
+        if x%10==y%10:
+            k=k-1
+            x=x//10
+            y=y//10
+    return k
+def hem():
+    chisla='0123456789'
+    chisla_spicok=list(chisla)
+    print(chisla_spicok)
+    haming='0000000 0001111 0011001 0100101 0101010 0110011 0111100 1000011 1001100'
+    haming_spisok=haming.split()
+    print(haming_spisok)
+    cod=int(input("код= "))
+    min=distance(cod,int(haming_spisok[0]))
+    imin=0
+    for i in range(0,9):
+        D=distance(cod,int(haming_spisok[i]))
+        if D<min:
+            min=D
+            imin=i
+    print(min)
+    if min==0:
+        print(f"код верный: символ {chisla_spicok[imin]}")
+    elif min==1:
+        print(f"код исправлен: символ {chisla_spicok[imin]}")
+    else:
+        print("код неверный")
+def men0():
+    print(" ")
+    print("1.Морза")
+    print("2.Хемминг")
+    print("3.Решатель")
+    m=int(input("Зачем оно тебе надо (если выбрали не то введите 0):"))
+    if(m==1):
+        morza()
+    elif(m==2):
+        hem()
+    elif(m==3):
+        menu1()
+    else:
+        print("Введи нормально!")
 while 1 >0:
-    menu1()
+    men0()
+
