@@ -24,9 +24,9 @@
 
 11)Викторина.py
 
-12)УРЗ
+12)УРЗ (URZ.py)
 
-13)Комбайн
+13)Комбайн (shtuka.py)
 
 ![image](https://user-images.githubusercontent.com/114387840/200456983-c4dbc06b-9ea9-4a3a-acaa-a63395c97d03.png)
 
