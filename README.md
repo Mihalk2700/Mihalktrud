@@ -20,7 +20,7 @@
 
 9)A\leftrightarrow B=(\overline{A}\vee B) \text{&} (\overline{B}\vee A)
 
-10)Картинкодел (pictruremaker)
+10)Картинкодел (pictruremaker/panda.py)
 
 11)Викторина.py
 
