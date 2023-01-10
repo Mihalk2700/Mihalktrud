@@ -1,0 +1,184 @@
+const token ="5738661469:AAEel1yhdYMJFW5FL1kS_jILRmqX7n1khxo";
+const Url = "https://script.google.com/macros/s/AKfycbyP8R2PMlo1ySp0JzWkPLJwWLGcgkc9SC4vWR_WBlCy68hdD_v3m-pPYiYQDilE1qBs/exec";
+const sheetid="1YkAO9HpfXyYENfZ3RZw0H31PpGTQ6mx4-uMVbnxuzy0/edit#gid=477547733"
+const DOC = SpreadsheetApp.openById("1YkAO9HpfXyYENfZ3RZw0H31PpGTQ6mx4-uMVbnxuzy0")
+function doPost(e) {
+  var update = JSON.parse(e.postData.contents); 
+  const tml= DOC.getSheetByName('Today');
+  const a=tml.getRange(2,2);
+  const b=tml.getRange(3,2);
+  const ra=DOC.getSheetByName('расп А');
+  const rb=DOC.getSheetByName('расп Б');
+  const d=DOC.getSheetByName('Today').getRange(1,3).getValue();
+  var t=" ";
+  if (update.hasOwnProperty('message')) {
+    var chat_id
+    var msg = update.message;chat_id = msg.chat.id;
+    var text = msg.text;
+    var msg_array = msg.text.split(" ");
+    var date = (msg.date/86400)+25569.125;
+    var user = msg.from.username;
+    switch (msg_array[0]){
+      case '/hello':send('Привет, я немного подвисаю, поэтому надо немного подождать', chat_id,INLINE);break;
+      case '/hello@stotd_bot':send('Привет, я немного подвисаю, поэтому надо немного подождать', chat_id,INLINE);break;
+    }
+  }
+  if (update.callback_query){
+    var callback_userId = update.callback_query.message.chat.id;
+    var ans = update.callback_query.data;
+    var message_id = update.callback_query.message.message_id;
+    switch(ans){
+      case "1": for(var j = 1; j <= 9; j++){t+=ra.getRange(j,1).getValue();t+=' - ';t+=ra.getRange(j,d+1).getValue();t+='\n';};editMessageText(t,callback_userId,message_id,INLINE); break;
+      case "2": for(var j = 1; j <= 9; j++){t+=rb.getRange(j,1).getValue();t+=' - ';t+=ra.getRange(j,d+1).getValue();t+='\n';};editMessageText(t,callback_userId,message_id,INLINE);break;
+      case "3": t+='Дежурный в подгруппе А - ';t+=a.getValue();editMessageText(t,callback_userId,message_id,INLINE);break;
+      case "4": t+='Дежурный в подгруппе Б - ';t+=b.getValue();editMessageText(t,callback_userId,message_id,INLINE);break;
+      case "5": editMessageText('Выбери день недели А',callback_userId,message_id,dayna);break;
+      case "6": editMessageText('Выбери день недели Б',callback_userId,message_id,daynb);break;
+      case "1a": for(var j = 1; j <= 9; j++){t+=ra.getRange(j,1).getValue();t+=' - ';t+=ra.getRange(j,2).getValue();t+='\n';};editMessageText(t,callback_userId,message_id,INLINE); break;
+      case "2a": for(var j = 1; j <= 9; j++){t+=ra.getRange(j,1).getValue();t+=' - ';t+=ra.getRange(j,3).getValue();t+='\n';};editMessageText(t,callback_userId,message_id,INLINE);break;
+      case "3a": for(var j = 1; j <= 9; j++){t+=ra.getRange(j,1).getValue();t+=' - ';t+=ra.getRange(j,4).getValue();t+='\n';};editMessageText(t,callback_userId,message_id,INLINE); break;
+      case "4a": for(var j = 1; j <= 9; j++){t+=ra.getRange(j,1).getValue();t+=' - ';t+=ra.getRange(j,5).getValue();t+='\n';};editMessageText(t,callback_userId,message_id,INLINE);break;
+      case "5a": for(var j = 1; j <= 9; j++){t+=ra.getRange(j,1).getValue();t+=' - ';t+=ra.getRange(j,6).getValue();t+='\n';};editMessageText(t,callback_userId,message_id,INLINE); break;
+      case "6a": for(var j = 1; j <= 9; j++){t+=ra.getRange(j,1).getValue();t+=' - ';t+=ra.getRange(j,7).getValue();t+='\n';};editMessageText(t,callback_userId,message_id,INLINE);break;
+      case "7a": editMessageText('Серьёзно?',callback_userId,message_id,INLINE);break;
+      case "8a": editMessageText('Привет, я немного подвисаю, поэтому надо немного подождать',callback_userId,message_id,INLINE);break;
+      case "1b": for(var j = 1; j <= 9; j++){t+=rb.getRange(j,1).getValue();t+=' - ';t+=rb.getRange(j,2).getValue();t+='\n';};editMessageText(t,callback_userId,message_id,INLINE); break;
+      case "2b": for(var j = 1; j <= 9; j++){t+=rb.getRange(j,1).getValue();t+=' - ';t+=rb.getRange(j,3).getValue();t+='\n';};editMessageText(t,callback_userId,message_id,INLINE);break;
+      case "3b": for(var j = 1; j <= 9; j++){t+=rb.getRange(j,1).getValue();t+=' - ';t+=rb.getRange(j,4).getValue();t+='\n';};editMessageText(t,callback_userId,message_id,INLINE); break;
+      case "4b": for(var j = 1; j <= 9; j++){t+=rb.getRange(j,1).getValue();t+=' - ';t+=rb.getRange(j,5).getValue();t+='\n';};editMessageText(t,callback_userId,message_id,INLINE);break;
+      case "5b": for(var j = 1; j <= 9; j++){t+=rb.getRange(j,1).getValue();t+=' - ';t+=rb.getRange(j,6).getValue();t+='\n';};editMessageText(t,callback_userId,message_id,INLINE); break;
+      case "6b": for(var j = 1; j <= 9; j++){t+=rb.getRange(j,1).getValue();t+=' - ';t+=rb.getRange(j,7).getValue();t+='\n';};editMessageText(t,callback_userId,message_id,INLINE);break;
+      case "7b": editMessageText('Серьёзно?',callback_userId,message_id,INLINE);break;
+      case "8b": editMessageText('Привет, я немного подвисаю, поэтому надо немного подождать',callback_userId,message_id,INLINE);break;
+    } 
+  }
+}
+
+var INLINE = {
+"inline_keyboard": [
+  [{
+    "text": "Расписание на сегодня (после 16.00 на завтра) подгруппы А",
+    "callback_data": "1"
+  }],
+  [{
+    "text": "Расписание на сегодня (после 16.00 на завтра) подгруппы Б",
+    "callback_data": "2"
+  }],
+  [{
+    "text": "Дежурный из подгруппы А",
+    "callback_data": "3"
+  }],
+  [{
+    "text": "Дежурный из подгруппы Б",
+    "callback_data": "4"
+  }],
+  [{
+    "text": "Расписание А на...",
+    "callback_data": "5"
+  }],
+  [{
+    "text": "Расписание Б на...",
+    "callback_data": "6"
+  }]
+]}
+var dayna = {
+"inline_keyboard": [
+  [{
+    "text": "Понедельник",
+    "callback_data": "1a"
+  }],
+  [{
+    "text": "Вторник",
+    "callback_data": "2a"
+  }],
+  [{
+    "text": "Среда",
+    "callback_data": "3a"
+  }],
+    [{
+    "text": "Четверг",
+    "callback_data": "4a"
+  }],
+    [{
+    "text": "Пятница",
+    "callback_data": "5a"
+  }],
+    [{
+    "text": "Суббота",
+    "callback_data": "6a"
+  }],
+      [{
+    "text": "Воскресенье",
+    "callback_data": "7a"
+  }],
+      [{
+    "text": "НАЗАД",
+    "callback_data": '8a'
+  }]
+]}
+var daynb = {
+"inline_keyboard": [
+  [{
+    "text": "Понедельник",
+    "callback_data": "1b"
+  }],
+  [{
+    "text": "Вторник",
+    "callback_data": "2b"
+  }],
+  [{
+    "text": "Среда",
+    "callback_data": "3b"
+  }],
+    [{
+    "text": "Четверг",
+    "callback_data": "4b"
+  }],
+    [{
+    "text": "Пятница",
+    "callback_data": "5b"
+  }],
+    [{
+    "text": "Суббота",
+    "callback_data": "6b"
+  }],
+      [{
+    "text": "Воскресенье",
+    "callback_data": "7b"
+  }],
+      [{
+    "text": "НАЗАД",
+    "callback_data": '8b'
+  }]
+]}
+function send(text, chat_id, keyBoard) {
+  let data = {
+    method: "post",
+    payload: {
+      method: "sendMessage",
+      chat_id: String(chat_id),
+      text: text,
+      parse_mode: "HTML",
+      reply_markup: JSON.stringify(keyBoard)
+    }
+  };
+  UrlFetchApp.fetch('https://api.telegram.org/bot' + token + "/", data);
+};
+function editMessageText(text, chat_id, messege_id,keyBoard) {
+  let data = {
+    method: "post",
+    payload: {
+      method: "editMessageText",
+      chat_id: String(chat_id),
+      message_id: messege_id,
+      text: text,
+      parse_mode: "HTML",
+      reply_markup: JSON.stringify(keyBoard)
+    }
+  };
+  UrlFetchApp.fetch('https://api.telegram.org/bot' + token + "/", data);
+};
+function api_connector () {
+  const App_link = "https://script.google.com/macros/s/AKfycbyP8R2PMlo1ySp0JzWkPLJwWLGcgkc9SC4vWR_WBlCy68hdD_v3m-pPYiYQDilE1qBs/exec";
+  UrlFetchApp.fetch("https://api.telegram.org/bot"+token+"/setWebHook?url="+App_link);
+};
