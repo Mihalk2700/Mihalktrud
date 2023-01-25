@@ -48,3 +48,16 @@ def f81{
                 k+=1
     print(k) 
 }
+def f12{
+    spisok=[]
+    for num in range(2,1000):#цэ делает список простых чисел
+        if all(num%delit!=0 for delit in range(2,num-1)):
+            spisok.append(num)
+    flag=False
+    for i in spisok:
+        for y in range (100):
+            if y*4+117==i and flag==False:
+                print(y, i)
+                flag=True
+
+}
