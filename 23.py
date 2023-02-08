@@ -1,6 +1,6 @@
 from itertools import product
 for i in range(2,6):
-    b=product('12',repeat=5)
+    b=product('12',repeat=i)
     for n in b:
         a=12
         for x in n:
