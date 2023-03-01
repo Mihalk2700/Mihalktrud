@@ -32,7 +32,7 @@
 
 ## Справочник
 
-''' python
+``` python
 
 bin()
 
@@ -101,7 +101,9 @@ all(num%delit!=0 for delit in range(2,num))
 sorted()
 
 abs()
-'''
+
+```
+
 # 5
 
 1. Организовать цикл перебора чисел
