@@ -30,6 +30,76 @@
 | 26 |+ |
 | 27 | |
 
+## Справочник
+
+bin()
+
+replace()
+
+split()
+
+print()
+
+input()
+
+int()
+
+str()
+
+list()
+
+for in range():
+
+if else
+
+len()
+
+pop()
+
+append
+
+readline()
+
+with open()
+
+min()
+
+max()
+
+index()
+
+from itertools import product
+
+product()
+
+continue
+
+break
+
+count()
+
+turtle 
+
+goto()
+
+dot()
+
+left()
+
+right()
+
+join()
+
+map()
+
+remove()
+
+all(num%delit!=0 for delit in range(2,num))
+
+sorted()
+
+abs()
+
 # 5
 
 1. Организовать цикл перебора чисел
